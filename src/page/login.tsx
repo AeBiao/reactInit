@@ -17,7 +17,7 @@ const history=useHistory()
     const { name } = card;
     const { status } = dialog;
     const onFinish = (value:any) => {
-        login({ ...value }).then(res => {
+        login({ ...value }).then((res:any) => {
             if (res.code==20000) {
                  message.open({
                 type: 'success',
