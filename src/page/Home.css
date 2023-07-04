@@ -1,0 +1,31 @@
+.hml{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.box{
+    background-color: #ccc;
+    width: 100%;
+    display: flex;
+}
+.ti{
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.span{
+    font-weight:900;
+
+}

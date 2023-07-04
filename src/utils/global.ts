@@ -1,0 +1,1 @@
+export const BASS_URL="http://shop.lanlianhua.work"
